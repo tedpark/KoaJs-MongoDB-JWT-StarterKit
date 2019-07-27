@@ -1,3 +1,4 @@
+### Node ###
 # Logs
 logs
 *.log
@@ -29,14 +30,14 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
@@ -55,7 +56,12 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+# .env
 
-# next.js build output
-.next
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
