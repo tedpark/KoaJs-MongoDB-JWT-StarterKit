@@ -5,7 +5,7 @@ This repository demonstrates the usage of MongoDB within an Koa application.
 ### Prerequisites
 What things you need to install the software and how to install them
 * MongoDB local server
-* Passport Social id (Ex: clientId:... clientSecret:...) in /utils/auth.js
+* You have to Edit Passport Social id (Ex: clientId:... clientSecret:...) in /utils/auth.js
 
 
 ### Starting App
